@@ -1,0 +1,1242 @@
+
+/*.container{
+	height:100%;
+	width:100%;
+}
+*/
+/* *{
+	margin:0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height:auto;
+	margin: 0px auto -155px;
+}
+
+footer, .push{
+	height:155px;
+}
+
+.push{
+	background-image: url("../images/stardust.png");
+}*/
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	border-bottom: 1px solid #E1E1E1;
+}
+
+header{
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #7F7A95;
+	padding:25px 20px 20px 20px;
+	width: 275px;
+	text-align:center;
+	margin:0px 0px 0px 157px;
+}
+
+
+.NavBar{
+	float:right;
+	margin: -55px 425px 0px 0px;
+	text-align: center;
+}
+
+.PageLinks{
+	margin:0px;
+	padding: 0px;
+	font-family: "Arial";
+	font-size:18px;
+	padding: 10px;
+	color:#777777;
+}
+
+a.PageLinks{
+	display: inline;
+}
+
+a.PageLinks:hover{
+	background:#D3CFE2;
+	color:#444349;
+}
+
+
+.content{
+	width:100%;
+	clear:both;
+	min-height: 100%;
+	overflow: auto;
+	background-image: url("../images/stardust.png");
+}
+
+.AboutMe, .Contact, .Portfolio{
+	background:#959595;
+	float: left;
+	width: 590px;
+	margin: 40px 0px 50px 157px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+	position:relative;
+}
+
+section.AboutMe, section.Contact{
+	padding:0px 30px 0px 30px;
+}
+
+section.Portfolio{
+	padding:0px 30px 20px 30px;
+	overflow:auto;
+}
+
+
+#Aboutmeh1, #Contacth1, #portfolioh1{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size:30px;
+	margin:40px 0px 25px 0px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 2px solid #E1E1E1;
+}
+
+#selfpic{
+	width:205px;
+	height: 130px;
+	float: left;
+	margin:18px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+}
+
+p{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 5px 0px 0px 0px;
+}
+
+form{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 0px 0px 20px 0px;
+}
+
+textarea{
+	width: 590px;
+	height:200px;
+}
+
+input{
+	width:590px;
+	height: 25px;
+}
+
+input.submitbutton{
+	width:120px;
+	height:40px;
+	font-family: "Arial";
+	font-size: 18px;
+	color:#E1E1E1;
+	background:#95906B;
+}
+
+input.submitbutton:hover{
+	background: #E1DAA2;
+	color:#55523D;
+}
+
+img{
+	width:265px;
+	height:195px;
+	padding: 15px 0px 15px 0px;
+}
+
+div.hangman{
+	position: relative;
+	float: left;
+}
+
+#hangman{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rpg{
+	float:right;
+	position:relative;
+}
+
+#rpg{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.trivia{
+	float:left;
+	position:relative;
+}
+
+#trivia{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rutgers{
+	float:right;
+	position: relative;
+}
+
+#rutgers{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rps{
+	float:left;
+	position: relative;
+}
+
+#rps{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+.Connect{
+	background:#959595;
+	float: right;
+	width: 270px;
+	margin: 40px 400px 285px 0px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+	position: fixed;
+	position: relative;
+}
+
+#connectheader{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size: 23px;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+aside.Connect{
+	padding:0px 30px 20px 30px;
+	height:auto;
+}
+
+nav.connectlinks{
+	display: inline;
+}
+
+#githubpic, #linkedinpic{
+	width:80px;
+	height:80px;
+	padding: 20px 0px 24px 5px;
+}
+
+#stackopic{
+	width: 75px;
+	height: 73px;
+	padding: 20px 0px 27px 7px;
+}
+
+
+.footer{
+	background-color: #494843;
+	text-align: center;
+	border-top:3px solid #95906B;
+	padding: 20px 20px 20px 20px; 
+}
+
+footer{
+	font-family: "Arial";
+	font-size: 12px;
+	color:#959595;
+}
+
+@media screen and (max-width: 980px) {
+
+/*.container{
+	height:100%;
+	width:100%;
+}
+*/
+/* *{
+	margin:0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height:auto;
+	margin: 0px auto -155px;
+}
+
+footer, .push{
+	height:155px;
+}
+
+.push{
+	background-image: url("../images/stardust.png");
+}*/
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	border-bottom: 1px solid #E1E1E1;
+}
+
+header{
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #7F7A95;
+	padding:25px 20px 20px 20px;
+	width: 275px;
+	text-align:center;
+	margin:0px 0px 0px 115px;
+}
+
+
+.NavBar{
+	float:right;
+	margin: -55px 50px 0px 0px;
+	text-align: center;
+}
+
+.PageLinks{
+	margin:0px;
+	padding: 0px;
+	font-family: "Arial";
+	font-size:18px;
+	padding: 10px;
+	color:#777777;
+}
+
+a.PageLinks{
+	display: inline;
+}
+
+a.PageLinks:hover{
+	background:#D3CFE2;
+	color:#444349;
+}
+
+
+.content{
+	width:100%;
+	clear:both;
+	min-height: 100%;
+	overflow: auto;
+	background-image: url("../images/stardust.png");
+}
+
+.AboutMe, .Contact, .Portfolio{
+	background:#959595;
+	float: left;
+	width: 400px;
+	height:auto;
+	margin: 40px 0px 50px 115px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+section.AboutMe, section.Contact{
+	padding:0px 30px 0px 30px;
+}
+
+section.Portfolio{
+	padding:0px 30px 20px 30px;
+	overflow:auto;
+}
+
+
+#Aboutmeh1, #Contacth1, #portfolioh1{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size:30px;
+	margin:40px 0px 25px 0px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 2px solid #E1E1E1;
+}
+
+#selfpic{
+	width:400px;
+	height: 300px;
+	margin:18px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+	float:none;
+}
+
+p{
+	font-family: "Arial";
+	font-size: 18px;
+	float:none;
+	color:#fff;
+	line-height: 2;
+	padding: 5px 0px 0px 0px;
+}
+
+form{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 0px 0px 20px 0px;
+}
+
+textarea{
+	width: 590px;
+	height:200px;
+}
+
+input{
+	width:590px;
+	height: 25px;
+}
+
+input.submitbutton{
+	width:120px;
+	height:40px;
+	font-family: "Arial";
+	font-size: 18px;
+	color:#E1E1E1;
+	background:#95906B;
+}
+
+input.submitbutton:hover{
+	background: #E1DAA2;
+	color:#55523D;
+}
+
+img{
+	width:265px;
+	height:195px;
+	padding: 15px 0px 15px 0px;
+}
+
+div.hangman{
+	position: relative;
+	float: left;
+}
+
+#hangman{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rpg{
+	float:right;
+	position:relative;
+}
+
+#rpg{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.trivia{
+	float:left;
+	position:relative;
+}
+
+#trivia{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rutgers{
+	float:right;
+	position: relative;
+}
+
+#rutgers{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rps{
+	float:left;
+	position: relative;
+}
+
+#rps{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+.Connect{
+	background:#959595;
+	float: right;
+	width: 200px;
+	margin: 40px 65px 285px 0px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+#connectheader{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size: 21px;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+aside.Connect{
+	padding:0px 30px 20px 30px;
+	height:auto;
+}
+
+nav.connectlinks{
+	display: inline;
+}
+
+#githubpic, #linkedinpic{
+	width:60px;
+	height:60px;
+	padding: 20px 0px 24px 5px;
+}
+
+#stackopic{
+	width: 55px;
+	height: 53px;
+	padding: 20px 0px 27px 7px;
+}
+
+
+.footer{
+	background-color: #494843;
+	text-align: center;
+	border-top:3px solid #95906B;
+	padding: 20px 20px 20px 20px; 
+}
+
+footer{
+	font-family: "Arial";
+	font-size: 12px;
+	color:#959595;
+}
+	
+}
+
+@media screen and (max-width: 768px) {
+	/*.container{
+	height:100%;
+	width:100%;
+}
+*/
+/* *{
+	margin:0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height:auto;
+	margin: 0px auto -155px;
+}
+
+footer, .push{
+	height:155px;
+}
+
+.push{
+	background-image: url("../images/stardust.png");
+}*/
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	border-bottom: 1px solid #E1E1E1;
+}
+
+header{
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #7F7A95;
+	padding:25px 20px 20px 20px;
+	width: 275px;
+	text-align:center;
+	margin:0px 0px 0px 36px;
+}
+
+
+.NavBar{
+	float:right;
+	margin: -65px 0px 15px 30px;
+	text-align: center;
+}
+
+.PageLinks{
+	margin:0px;
+	padding: 0px;
+	font-family: "Arial";
+	font-size:18px;
+	padding: 10px;
+	color:#777777;
+}
+
+a.PageLinks{
+	display: inline;
+}
+
+a.PageLinks:hover{
+	background:#D3CFE2;
+	color:#444349;
+}
+
+
+.content{
+	width:100%;
+	clear:both;
+	min-height: 100%;
+	overflow: auto;
+	background-image: url("../images/stardust.png");
+}
+
+.AboutMe, .Contact, .Portfolio{
+	background:#959595;
+	float: left;
+	width: 600px;
+	height:auto;
+	margin: 40px 0px 50px 36px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+section.AboutMe, section.Contact{
+	padding:0px 30px 0px 30px;
+}
+
+section.Portfolio{
+	padding:0px 30px 20px 30px;
+	overflow:auto;
+}
+
+
+#Aboutmeh1, #Contacth1, #portfolioh1{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size:30px;
+	margin:40px 0px 25px 0px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 2px solid #E1E1E1;
+}
+
+#selfpic{
+	width:300px;
+	height: 200px;
+	margin:18px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+	float:left;
+}
+
+p{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 5px 0px 0px 0px;
+}
+
+form{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 0px 0px 20px 0px;
+}
+
+textarea{
+	width: 590px;
+	height:200px;
+}
+
+input{
+	width:590px;
+	height: 25px;
+}
+
+input.submitbutton{
+	width:120px;
+	height:40px;
+	font-family: "Arial";
+	font-size: 18px;
+	color:#E1E1E1;
+	background:#95906B;
+}
+
+input.submitbutton:hover{
+	background: #E1DAA2;
+	color:#55523D;
+}
+
+img{
+	width:265px;
+	height:195px;
+	padding: 15px 0px 15px 0px;
+}
+
+div.hangman{
+	position: relative;
+	float: left;
+}
+
+#hangman{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rpg{
+	float:right;
+	position:relative;
+}
+
+#rpg{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.trivia{
+	float:left;
+	position:relative;
+}
+
+#trivia{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rutgers{
+	float:right;
+	position: relative;
+}
+
+#rutgers{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rps{
+	float:left;
+	position: relative;
+}
+
+#rps{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+.Connect{
+	background:#959595;
+	width: 600px;
+	float: left;
+	margin: 0px 0px 50px 36px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+#connectheader{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size: 21px;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+aside.Connect{
+	padding:0px 30px 0px 30px;
+	height:auto;
+}
+
+nav.connectlinks{
+	display: inline;
+}
+
+#githubpic, #linkedinpic{
+	width:60px;
+	height:60px;
+	padding: 20px 0px 24px 5px;
+}
+
+#stackopic{
+	width: 55px;
+	height: 53px;
+	padding: 20px 0px 27px 7px;
+}
+
+
+.footer{
+	background-color: #494843;
+	text-align: center;
+	border-top:3px solid #95906B;
+	padding: 20px 20px 20px 20px; 
+}
+
+footer{
+	font-family: "Arial";
+	font-size: 12px;
+	color:#959595;
+}
+
+	}
+
+@media screen and (max-width: 640px) {
+	/*.container{
+	height:100%;
+	width:100%;
+}
+*/
+/* *{
+	margin:0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height:auto;
+	margin: 0px auto -155px;
+}
+
+footer, .push{
+	height:155px;
+}
+
+.push{
+	background-image: url("../images/stardust.png");
+}*/
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	border-bottom: 2px solid #E1E1E1;
+	position: static;
+	overflow: auto;
+}
+
+header{
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #7F7A95;
+	padding:28px 0px 28px 0px;
+	width: 100%;
+	text-align:center;
+	margin:0px 0px 0px 0px;
+}
+
+
+.NavBar{
+	margin:0px 0px 0px 0px;
+	text-align: center;
+}
+
+.PageLinks{
+	margin:0px 0px 0px 0px;
+	padding: 0px;
+	font-family: "Arial";
+	font-size:18px;
+	padding: 20px 50px 20px 50px;
+	color:#777777;
+}
+
+a.PageLinks{
+	display: inline;
+}
+
+a.PageLinks:hover{
+	background:#D3CFE2;
+	color:#444349;
+}
+
+
+.content{
+	width:100%;
+	clear:both;
+	min-height: 100%;
+	overflow: auto;
+	background-image: url("../images/stardust.png");
+}
+
+.AboutMe, .Contact, .Portfolio{
+	background:#959595;
+	float: left;
+	width: 500px;
+	height:auto;
+	margin: 40px 0px 50px 25px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+section.AboutMe, section.Contact{
+	padding:0px 30px 0px 30px;
+}
+
+section.Portfolio{
+	padding:0px 30px 20px 30px;
+	overflow:auto;
+}
+
+
+#Aboutmeh1, #Contacth1, #portfolioh1{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size:30px;
+	margin:40px 0px 25px 0px;
+	padding: 0px 0px 20px 0px;
+	border-bottom: 2px solid #E1E1E1;
+}
+
+#selfpic{
+	width:500px;
+	height: 400px;
+	margin:18px 0px 0px 0px;
+	padding: 0px 20px 0px 0px;
+	float:none;
+}
+
+p{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 5px 0px 0px 0px;
+}
+
+form{
+	font-family: "Arial";
+	font-size: 18px;
+	color:#fff;
+	line-height: 2;
+	padding: 0px 0px 20px 0px;
+}
+
+textarea{
+	width: 590px;
+	height:200px;
+}
+
+input{
+	width:590px;
+	height: 25px;
+}
+
+input.submitbutton{
+	width:120px;
+	height:40px;
+	font-family: "Arial";
+	font-size: 18px;
+	color:#E1E1E1;
+	background:#95906B;
+}
+
+input.submitbutton:hover{
+	background: #E1DAA2;
+	color:#55523D;
+}
+
+img{
+	width:265px;
+	height:195px;
+	padding: 15px 0px 15px 0px;
+}
+
+div.hangman{
+	position: relative;
+	float: left;
+}
+
+#hangman{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rpg{
+	float:right;
+	position:relative;
+}
+
+#rpg{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.trivia{
+	float:left;
+	position:relative;
+}
+
+#trivia{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rutgers{
+	float:right;
+	position: relative;
+}
+
+#rutgers{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+div.rps{
+	float:left;
+	position: relative;
+}
+
+#rps{
+	position:absolute;
+	bottom:30px;
+	background:#7F7A95;
+	width:265px;
+	height:30px;
+	font-family:"Georgia";
+	font-size:22px;
+	color:#E1E1E1;
+	text-align: center;
+	padding:13px 0px 13px 0px;
+}
+
+.Connect{
+	background:#959595;
+	width: 500px;
+	float: left;
+	margin: 0px 0px 50px 25px;
+	border:1px solid #E1E1E1;
+	box-shadow:0px 3px 5px 0px;
+}
+
+#connectheader{
+	color: #E1DAA2;
+	font-family: "Georgia";
+	font-size: 21px;
+	margin:0px 0px 0px 0px;
+	padding:20px 0px 10px 0px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+aside.Connect{
+	padding:0px 30px 0px 30px;
+	height:auto;
+}
+
+nav.connectlinks{
+	display: inline;
+}
+
+#githubpic, #linkedinpic{
+	width:60px;
+	height:60px;
+	padding: 20px 0px 24px 5px;
+}
+
+#stackopic{
+	width: 55px;
+	height: 53px;
+	padding: 20px 0px 27px 7px;
+}
+
+
+.footer{
+	background-color: #494843;
+	text-align: center;
+	border-top:3px solid #95906B;
+	padding: 20px 20px 20px 20px; 
+}
+
+footer{
+	font-family: "Arial";
+	font-size: 12px;
+	color:#959595;
+}
+
+	}
